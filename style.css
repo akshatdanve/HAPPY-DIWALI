@@ -9,7 +9,7 @@
 body
 {
 	background: #121113;
-	height: 1000px;
+	min-height: 100vh;
 }
 
 
@@ -21,6 +21,8 @@ body
 	animation: moveit;
 	animation-duration: 2.5s;
 	animation-iteration-count: infinite;
+	width: 5px;
+	height: 5px;
   } 
   
   @keyframes moveit{
@@ -112,5 +114,10 @@ section.content img
 
     .hello-font {
         font-size: 1em; /* Increase font size for readability */
+    }
+
+    .star {
+        width: 3px; /* Adjust star size for mobile */
+        height: 3px; /* Adjust star size for mobile */
     }
 }
