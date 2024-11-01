@@ -120,4 +120,8 @@ section.content img
         width: 3px; /* Adjust star size for mobile */
         height: 3px; /* Adjust star size for mobile */
     }
+
+    .fireworks {
+        animation-duration: 1.5s; /* Faster animation for mobile */
+    }
 }
