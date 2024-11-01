@@ -150,7 +150,7 @@
 
             particle.size = 10;
 
-            particle.gravity = 0.75;
+            particle.gravity = 0.5;
             particle.resistance = 0.92;
             particle.shrink = Math.random() * 0.05 + 0.93;
 
